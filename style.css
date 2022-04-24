@@ -1,0 +1,38 @@
+
+body {
+	background-image: url("img/background1.png");
+	font-family: Consolas;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+
+
+.card-title {
+	font-size: 35px;
+	text-align: center;
+}
+
+
+.toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #222;
+    border-bottom: 1px solid #ccc;
+}
+.toolbar a {
+    color: #eee;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    font-family: Verdana;
+}
+            
+.content {
+    margin-top: 50px;
+    padding: 10px;
+}
